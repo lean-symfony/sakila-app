@@ -11,5 +11,8 @@
   "bugs": {
     "url": "https://github.com/lean-symfony/sakila-app/issues"
   },
-  "homepage": "https://github.com/lean-symfony/sakila-app#readme"
+  "homepage": "https://github.com/lean-symfony/sakila-app#readme",
+  "dependencies": {
+    "kube": "imperavi/kube"
+  }
 }
