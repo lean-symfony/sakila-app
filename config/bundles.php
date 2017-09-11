@@ -5,4 +5,5 @@ return [
     'Symfony\Bundle\WebServerBundle\WebServerBundle' => ['dev' => true],
     'Symfony\Bundle\WebProfilerBundle\WebProfilerBundle' => ['dev' => true, 'test' => true],
     'Symfony\Bundle\TwigBundle\TwigBundle' => ['all' => true],
+    'Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle' => ['all' => true],
 ];
