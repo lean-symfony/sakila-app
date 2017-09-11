@@ -1,0 +1,15 @@
+{
+  "name": "sakila-app",
+  "version": "1.0.0",
+  "description": "Symfony demo using the flex architecture",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lean-symfony/sakila-app.git"
+  },
+  "author": "Micha Alt <mail@lean-stack.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lean-symfony/sakila-app/issues"
+  },
+  "homepage": "https://github.com/lean-symfony/sakila-app#readme"
+}
