@@ -4,3 +4,7 @@
 /var/
 /vendor/
 ###< symfony/framework-bundle ###
+
+# IDE/Editor settings
+/.idea/
+
