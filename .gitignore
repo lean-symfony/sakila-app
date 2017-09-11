@@ -15,3 +15,6 @@
 # NPM/yarn dependencies
 /node_modules/
 
+# @symfony/encore build artefacts
+/public/build/
+
