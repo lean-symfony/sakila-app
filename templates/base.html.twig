@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title>{% block title %}Welcome!{% endblock %}</title>
+
+        <link href="{{ asset('build/app.css') }}" rel="stylesheet" />
+        <link href="{{ asset('build/styles.css') }}" rel="stylesheet" />
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
+        <header id="top">
+            <div id="top-brand">
+                <a href="{{ path("homepage") }}">Sakila</a>
+            </div>
+            <nav id="top-nav-main"><ul>
+                    <li><a href="/catalog/">Katalog</a></li>
+                    <li><a href="/promos/">Aktionen</a></li>
+                </ul>
+            </nav>
+            <nav id="top-nav-extra">
+                <ul>
+                    <li><a href="/login">Login</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
         {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+    </main>
+
+    <script src="{{ asset('build/app.js') }}"></script>
+    {% block javascripts %}{% endblock %}
     </body>
 </html>
