@@ -34,7 +34,7 @@
     },
     "scripts": {
         "auto-scripts": {
-            "make cache-warmup": "script",
+            "cache:warmup": "symfony-cmd",
             "assets:install --symlink --relative %PUBLIC_DIR%": "symfony-cmd"
         },
         "post-install-cmd": [
