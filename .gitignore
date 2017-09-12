@@ -16,5 +16,5 @@
 /node_modules/
 
 # @symfony/encore build artefacts
-/public/build/
+#/public/build/
 
